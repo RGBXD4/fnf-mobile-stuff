@@ -1,0 +1,4 @@
+// set back mode of mobile
+#if android
+FlxG.android.preventDefaultKeys = [BACK];
+#end
