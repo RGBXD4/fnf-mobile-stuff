@@ -1,2 +1,2 @@
 # fnf-mobile-stuff
-lol💀我大了
+some things when i port a mod to use
