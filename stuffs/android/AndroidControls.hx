@@ -6,7 +6,7 @@ import flixel.util.FlxSave;
 import flixel.math.FlxPoint;
 
 import android.FlxVirtualPad;
-import android.FlxHitbox;
+import android.FlxNewHitbox;
 
 class Config {
 	var save:FlxSave;
@@ -89,8 +89,6 @@ class AndroidControls extends FlxSpriteGroup {
 			  add(newhbox);
 
 			default:
-			  newhbox = new FlxNewHitbox();
-			  add(newhbox);
 
 		}
 	}
